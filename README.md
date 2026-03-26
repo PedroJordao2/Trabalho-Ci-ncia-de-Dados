@@ -72,13 +72,13 @@ Alguns deles são provenientes de bases públicas utilizadas para fins educacion
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/PedroJordao2/Trabalho-Ci-ncia-de-Dados.git
 ```
 
 2. Acesse a pasta do projeto:
 
 ```bash
-cd seu-repositorio
+cd Trabalho-Ci-ncia-de-Dados-main
 ```
 
 3. Abra os notebooks:
