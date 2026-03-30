@@ -113,4 +113,12 @@ Essa integração permite:
 - Realizar análises por estado e região
 - Melhorar a interpretabilidade dos resultados
 
+## Créditos
+
+Este dataset foi compilado e disponibilizado por:
+
+- **Atlas Brasil**
+  - Dataset: Atlas do Desenvolvimento Humano (ADH)
+  - Kaggle: https://basedosdados.org/dataset/cbfc7253-089b-44e2-8825-755e1419efc8?table=ec5fb3d1-fa98-4ab3-8a02-4b9950048a83
+
 ---
