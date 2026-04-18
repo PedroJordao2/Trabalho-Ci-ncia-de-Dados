@@ -56,7 +56,7 @@ A Ciência de Dados é apresentada como a intersecção entre **estatística, co
 
 Principais ferramentas e bibliotecas utilizadas nos materiais:
 
-- Python
+- Python 3.8+
 - Google Colab / Jupyter Notebook
 - Pandas
 - Matplotlib
@@ -67,23 +67,151 @@ Principais ferramentas e bibliotecas utilizadas nos materiais:
 Os datasets utilizados nos exemplos e exercícios estão disponíveis na pasta `datasets/`.
 Alguns deles são provenientes de bases públicas utilizadas para fins educacionais.
 
+---
+
 ## 🚀 Como Utilizar
 
-1. Clone o repositório:
+Você pode rodar os notebooks de duas formas: **online via Google Colab** (sem instalar nada) ou **localmente na sua máquina**.
+
+### ☁️ Opção 1 — Google Colab (recomendado para iniciantes)
+
+- Acesse [colab.research.google.com](https://colab.research.google.com)
+- Clique em **"Arquivo" → "Abrir notebook" → "GitHub"**
+- Cole a URL do repositório: `https://github.com/PedroJordao2/Trabalho-Ci-ncia-de-Dados`
+- Selecione o notebook desejado e clique em **"Abrir"**
+
+Nenhuma instalação é necessária — o Colab já possui Python e as principais bibliotecas configuradas.
+
+Neste caso, será necessário realizar o envio dos arquivos dos datasets utilizados nos módulos 2, 3 e projeto final.
+
+---
+
+### 💻 Opção 2 — Executar Localmente
+
+#### 1. Instale o Python
+
+> Caso já tenha o Python instalado, pule para o passo 2.
+
+**Windows:**
+
+- Acesse [python.org/downloads](https://www.python.org/downloads/) e baixe a versão mais recente (3.8 ou superior)
+- Execute o instalador `.exe`
+- **Importante:** marque a opção **"Add Python to PATH"** antes de clicar em _Install Now_
+- Após a instalação, abra o **Prompt de Comando** (`Win + R` → digite `cmd`) e verifique:
+
+```bash
+python --version
+```
+
+**macOS:**
+
+- Acesse [python.org/downloads](https://www.python.org/downloads/) e baixe o instalador `.pkg`
+- Execute o instalador e siga os passos
+- Abra o **Terminal** e verifique:
+
+```bash
+python3 --version
+```
+
+**Linux (Ubuntu/Debian):**
+
+O Python geralmente já vem instalado. Para verificar ou instalar:
+
+```bash
+python3 --version
+
+# Caso não esteja instalado:
+sudo apt update
+sudo apt install python3 python3-pip
+```
+
+---
+
+#### 2. Clone o Repositório
+
+Com o Python instalado, clone o projeto para sua máquina:
 
 ```bash
 git clone https://github.com/PedroJordao2/Trabalho-Ci-ncia-de-Dados.git
-```
-
-2. Acesse a pasta do projeto:
-
-```bash
 cd Trabalho-Ci-ncia-de-Dados-main
 ```
 
-3. Abra os notebooks:
+> Caso não tenha o Git instalado, acesse [git-scm.com](https://git-scm.com/) ou baixe o repositório como `.zip` clicando em **"Code" → "Download ZIP"** no GitHub.
 
-- No **Google Colab**
+---
+
+#### 3. Abra o Projeto no VS Code
+
+O **Visual Studio Code (VS Code)** é um editor de código gratuito, leve e amplamente usado na área de dados. Ele oferece suporte nativo a notebooks `.ipynb`, o que permite rodar os materiais deste repositório sem precisar abrir o navegador.
+
+**Instalação:**
+
+- Acesse [code.visualstudio.com](https://code.visualstudio.com/) e baixe a versão para o seu sistema operacional
+- Execute o instalador e siga os passos (as opções padrão já são suficientes)
+- Abra o VS Code após a instalação
+  **Extensões recomendadas:**
+
+Instale as extensões abaixo para trabalhar com Python e notebooks dentro do VS Code:
+
+- **Python** — suporte à linguagem Python (realce de sintaxe, execução, debug)
+- **Jupyter** — permite abrir e executar arquivos `.ipynb` diretamente no editor
+  Para instalar, pressione `Ctrl+Shift+X` (ou `Cmd+Shift+X` no macOS) para abrir o painel de extensões, pesquise pelo nome e clique em **Install**.
+
+**Abrindo o projeto:**
+
+Após clonar o repositório, abra a pasta do projeto no VS Code:
+
+```bash
+# No terminal, dentro da pasta do projeto:
+code .
+```
+
+Ou acesse pelo menu: **"Arquivo" → "Abrir Pasta"** e selecione a pasta `Trabalho-Ci-ncia-de-Dados-main`.
+
+Em seguida, navegue até a pasta `notebooks/`, clique em qualquer arquivo `.ipynb` e ele será aberto diretamente no VS Code. Clique em **"Select Kernel"** no canto superior direito e escolha o interpretador Python instalado na sua máquina.
+
+---
+
+#### 4. Instale as Dependências
+
+Instale as bibliotecas necessárias com o `pip`:
+
+```bash
+pip install pandas matplotlib seaborn jupyter
+```
+
+> No macOS ou Linux, use `pip3` no lugar de `pip` caso necessário.
+
+---
+
+#### 5. (Opcional) Usando Ambiente Virtual
+
+Recomendado para evitar conflitos entre projetos:
+
+```bash
+# Criar o ambiente virtual
+python -m venv venv
+
+# Ativar — Windows
+venv\Scripts\activate
+
+# Ativar — macOS/Linux
+source venv/bin/activate
+
+# Instalar dependências
+pip install pandas matplotlib seaborn jupyter
+
+# Iniciar o Jupyter
+jupyter notebook
+```
+
+Para desativar o ambiente virtual quando terminar:
+
+```bash
+deactivate
+```
+
+---
 
 ## 🎓 Público-Alvo
 
