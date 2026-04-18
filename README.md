@@ -8,11 +8,11 @@ O conteúdo foi estruturado para iniciantes e para pessoas que desejam iniciar n
 
 Este repositório funciona como um **ambiente de estudo e prática**, contendo materiais que auxiliam no aprendizado de:
 
-* Fundamentos de programação com Python
-* Manipulação e análise de dados
-* Visualização de dados
-* Análise exploratória de dados (EDA)
-* Interpretação e comunicação de insights
+- Fundamentos de programação com Python
+- Manipulação e análise de dados
+- Visualização de dados
+- Análise exploratória de dados (EDA)
+- Interpretação e comunicação de insights
 
 A proposta é proporcionar uma experiência prática, permitindo que estudantes explorem datasets reais, reproduzam análises e desenvolvam seus próprios experimentos.
 
@@ -35,32 +35,32 @@ exercicios/
 │   Atividades propostas para prática dos conceitos aprendidos.
 
 projeto_final/
-│   Projetos ou análises completas desenvolvidas ao longo do curso.
+│   Projeto final de conclusão do curso.
 ```
 
 ## 🧠 Conteúdo Abordado
 
 O material do repositório cobre tópicos importantes da área de Ciência de Dados, incluindo:
 
-* Introdução à Ciência de Dados
-* Fundamentos de programação em Python
-* Manipulação de dados com Pandas
-* Estatística descritiva básica
-* Visualização de dados com Matplotlib e Seaborn
-* Análise Exploratória de Dados (EDA)
-* Geração de insights a partir de dados
+- Introdução à Ciência de Dados
+- Fundamentos de programação em Python
+- Manipulação de dados com Pandas
+- Estatística descritiva básica
+- Visualização de dados com Matplotlib e Seaborn
+- Análise Exploratória de Dados (EDA)
+- Geração de insights a partir de dados
 
-A Ciência de Dados é apresentada como a intersecção entre **estatística, computação e conhecimento de negócio**, sendo aplicada na resolução de problemas reais e na tomada de decisões baseada em dados. 
+A Ciência de Dados é apresentada como a intersecção entre **estatística, computação e conhecimento de negócio**, sendo aplicada na resolução de problemas reais e na tomada de decisões baseada em dados.
 
 ## 🛠 Tecnologias Utilizadas
 
 Principais ferramentas e bibliotecas utilizadas nos materiais:
 
-* Python
-* Google Colab / Jupyter Notebook
-* Pandas
-* Matplotlib
-* Seaborn
+- Python
+- Google Colab / Jupyter Notebook
+- Pandas
+- Matplotlib
+- Seaborn
 
 ## 📦 Datasets
 
@@ -83,16 +83,16 @@ cd Trabalho-Ci-ncia-de-Dados-main
 
 3. Abra os notebooks:
 
-* No **Google Colab**
+- No **Google Colab**
 
 ## 🎓 Público-Alvo
 
 Este material foi desenvolvido para:
 
-* Estudantes iniciantes em programação
-* Pessoas interessadas em Ciência de Dados
-* Profissionais em transição de carreira
-* Alunos de ensino médio ou superior que desejam aprender análise de dados
+- Estudantes iniciantes em programação
+- Pessoas interessadas em Ciência de Dados
+- Profissionais em transição de carreira
+- Alunos de ensino médio ou superior que desejam aprender análise de dados
 
 ---
 
